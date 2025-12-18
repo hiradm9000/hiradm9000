@@ -1,3 +1,16 @@
+#### REMEmBER, ##### 
+### A simple TCP port scanner written in C.  
+####Educational project to learn about sockets, networking, and concurrency.
+
+###### Usage
+gcc scanner.c -o scanner
+./scanner <IP> <start_port> <end_port>
+
+    Ex: ./scanner 192.168.1.1 443
+    Port 443 is OPEN on 192.168.1.1
+
+
+    
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
