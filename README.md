@@ -9,5 +9,6 @@
 <!---
 hiradm9000/hiradm9000 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->Hi all, I am trying to learn and help the community in SWIFT programming and C. Sockets Network, etc. Dont ask me about why! 
+--->Hi everyone, 
+I am trying to learn and to help the community in SWIFT programming and C. Sockets, Network, TCP/IP, UDP, wireshark, etc. Dont ask me why! 
 Fun Fact: Learn something new every 2 hours by reading A book, any good book. Good Luck and as alawys be +.
