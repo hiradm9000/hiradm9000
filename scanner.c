@@ -1,6 +1,6 @@
 #### REMEmBER, ##### 
 ### A simple TCP port scanner written in C.  
-####Educational project to learn about sockets, networking, and concurrency.
+#### This is an Educational project to learn about (sockets, networking.
 
 ###### Usage
 gcc scanner.c -o scanner
@@ -14,8 +14,8 @@ gcc scanner.c -o scanner
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
-#include <arpa/inet.h>
+#include <unistd.h>        #### <<<< POSIX API stuff like close(), open(), socket() , connect(),
+#include <arpa/inet.h>     #### <<<< Internet Operations stuff
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
 ###########
 
 >>Prog. begining entry point: 
-    int main(int argc, char *argv[]) {         << Two arguments)
+    int main(int argc, char *argv[]) {         ###<< Two arguments)
             
 >>Validate argument count:
     if (argc != 3) {
@@ -79,13 +79,13 @@ int main(int argc, char *argv[]) {
      int sock;
      Will hold the file descriptor for the network socket.
 
->>Declare target address structure:
-     struct sockaddr_in target;   <<IPv4)
-     target.sin_family = AF_INET;
-     target.sin_port = htons(port);
-     target.sin_addr.s_addr = inet_addr(ip);
+>>Declare target address structure:   ((((( the heart of setting up an IPv4 socket address 
+     struct sockaddr_in target;   ##<<IPv4)
+     target.sin_family = AF_INET;    ## address family Ipv4, but i want to use IPv4
+     target.sin_port = htons(port);  ## port no.
+     target.sin_addr.s_addr = inet_addr(ip); ## IP addr (bin format)
 
->>Create TCP socket:
+>>Create TCP socket:      << very important part
      sock = socket(AF_INET, SOCK_STREAM, 0);
     
 >> Try to attempt connection:
