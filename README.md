@@ -9,5 +9,5 @@
 <!---
 hiradm9000/hiradm9000 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->Hi all, I am trying to learn and help the community with and in SWIFT programming.
+--->Hi all, I am trying to learn and help the community with and in SWIFT programming and C.
 Fun Fact: Learn something new every 2 hours by reading A book, any good book. Good Luck and as alawys be +
